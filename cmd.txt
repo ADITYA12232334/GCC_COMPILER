@@ -1,4 +1,4 @@
-bison -d p148.y
-flex lexer148.l
+bison -d p129.y
+flex lexer129.l
 gcc p148.tab.c lex.yy.c -o parser
 ./parser
